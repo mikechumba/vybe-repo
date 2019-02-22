@@ -6,6 +6,16 @@
       <header>
          {% include "nav.html" %}
 
+         {% with messages = get_flashed_messages() %}
+         {% if messages %}
+               {% for message in messages %}
+                  <div class="main-message">
+                     {{ message }}
+                  </div>
+               {% endfor %}
+            {% endif %}
+         {% endwith %}
+
          <div class="signup-form left">
             <h1>Join us <span>to discover new <br>and exciting places</span></h1>
             <form method='POST' action="">

@@ -13,9 +13,9 @@
          </div>
          <div class="meta right">
             <h1>{{ user.name }}</h1>
-            <p>3 Places</p>
-            <a href="{{ url_for('main.favourites') }}">
-               <button class="main-btn">Favourites</button>
+            <p>{{ user.favorites.count() }} Places</p>
+            <a href="{{ url_for('auth.logout') }}">
+               <button class="main-btn">Logout</button>
             </a>
          </div>
       </div>

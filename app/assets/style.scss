@@ -345,3 +345,12 @@ fieldset {
 .popular {
    @include font($main,700,14px);
 }
+
+.main-message {
+   width: 20%;
+   margin: 0 auto;
+   text-align: center;
+   padding: 6px 10px;
+   @include font($first-light,500,14px);
+   background-color: rgba($main,0.6);
+}

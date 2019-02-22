@@ -30,7 +30,6 @@ ROUTE = [
     # {"lat": -3.7874, "long": 39.2572, "name": "Tsavo National Park", "is_stop_location": True}       
 ]
 
-
 def get_from_database(points):
     '''
     Get Co-ordinates stored in the database

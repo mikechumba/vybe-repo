@@ -23,7 +23,9 @@ def register():
         db.session.add(user)
         db.session.commit()
 
-        return redirect(url_for("main.home"))
+        return redirect(url_for("auth.register"))
+
+        flash('You\'ve successfully registered. You can now login.')
     
     # Log in validation
     if login_form.validate_on_submit():

@@ -452,4 +452,16 @@ fieldset {
   font-weight: 700;
   font-size: 14px;
 }
+
+.main-message {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 6px 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #79cbe9;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: rgba(93, 32, 114, 0.6);
+}
 /*# sourceMappingURL=style.css.map */
